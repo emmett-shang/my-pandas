@@ -10,3 +10,6 @@ df = pd.read_csv(pd.compat.StringIO(employee))
 df.columns = ['Name', 'Gender', 'Age']
 
 print(df)
+
+df.sort_values(by=['Age'], inplace=True)
+print(df)
