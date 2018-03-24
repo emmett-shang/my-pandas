@@ -4,6 +4,7 @@ import pandas as pd
 employee = r"""A,B,C
 John,m,30
 Alice,f,22
+Anonymous,m,10
 """
 
 df = pd.read_csv(pd.compat.StringIO(employee))
