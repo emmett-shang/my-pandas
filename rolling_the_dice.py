@@ -12,7 +12,14 @@ roll_again = 'yes'
 while roll_again == 'yes' or roll_again == 'y':
     print("rolling the dice...")
     print("the values are...")
-    print(random.randint(min,max))
-    print(random.randint(min,max))
+    dice_1 = random.randint(min,max)
+    print(dice_1)
+
+    dice_2 = random.randint(min,max)
+    print(dice_2)
+
+    print("the sum of the numbers = ...")
+
+    print(dice_1 + dice_2)
 
     roll_again = input("Do you want to roll the dice again?")
