@@ -18,8 +18,8 @@ while roll_again == 'yes' or roll_again == 'y':
     dice_2 = random.randint(min, max)
     print(dice_2)
 
-    print("the sum of the numbers = ...")
+    print("the difference between the numbers are = ...")
 
-    print(dice_1 + dice_2)
+    print(abs(dice_1 - dice_2))
 
     roll_again = input("Do you want to roll the dice again?")
