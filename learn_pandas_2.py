@@ -4,12 +4,14 @@ weather = r"""city,weather
 sydney,rain
 melbourne,sunny
 brisbane,sunny
+Hobart, cloudy
 """
 
 city = r"""city,state
 sydney,nsw
 brisbane,qld
-perth,sa
+perth,wa
+adelaide,sa
 """
 
 df_1 = pd.read_csv(pd.compat.StringIO(weather))
