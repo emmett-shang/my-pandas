@@ -1,8 +1,11 @@
 # importing the time module
 import time
+import random
 
 # welcoming the user
 name = input("What is your name? ")
+time.sleep(1)
+
 
 print("Hello, " + name, "Time to play hangman!")
 
@@ -15,10 +18,13 @@ print("Start guessing...")
 time.sleep(0.5)
 
 # here we set the secret
-word = "empty"
+word_list = ['in', 'empty', 'secret', 'apple', 'ask', 'or', 'time', 'discombobulated', 'physics', 'physichohistory', 'mathematician', 'supercalifragilisticexpialidocious']
+word = random.choice(word_list)
+
 
 # creates an variable with an empty value
 guesses = ''
+
 
 # determine the number of turns
 turns = 10
