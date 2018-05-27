@@ -4,7 +4,7 @@
 
 # print odd numbers from 0 to 20
 print("This is the odd number list from 0 to 20:")
-numbers = range(0, 20)
+numbers = range(0, 21)
 for n in numbers:
     if n % 2 != 0:
         print(n)
@@ -15,3 +15,7 @@ numbers_E = range(30, 51)
 for nE in numbers_E:
     if nE % 2 == 0:
         print(nE)
+
+print("This list doubles every number from 0 to 20:")
+new_list = [n * 2 for n in numbers]
+print(new_list)
