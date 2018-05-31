@@ -12,7 +12,7 @@ print(xs)         # Prints "[3, 1, 'foo', 'bar']"
 x = xs.pop()      # Remove and return the last element of the list
 print(x, xs)      # Prints "bar [3, 1, 'foo']"
 
-nums = list(range(5))     # range is a built-in function that creates a list of integers
+nums = list(range(10))     # range is a built-in function that creates a list of integers
 print(nums)               # Prints "[0, 1, 2, 3, 4]"
 print(nums[2:4])          # Get a slice from index 2 to 4 (exclusive); prints "[2, 3]"
 print(nums[2:])           # Get a slice from index 2 to the end; prints "[2, 3, 4]"
