@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Compute the x and y coordinates for points on a sine curve
-x = np.arange(0, 10 * np.pi, 10)
+x = np.arange(0, 3 * np.pi, 0.1)
 y = np.sin(x)
 
 # Plot the points using matplotlib
