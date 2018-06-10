@@ -1,5 +1,9 @@
 import random
 
+"""
+https://www.youtube.com/watch?v=aw391Vu-Hm0
+"""
+
 
 def heads_tails(number_of_flips):
     heads_count = 0
