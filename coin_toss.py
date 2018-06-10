@@ -5,7 +5,7 @@ def heads_tails(number_of_flips):
     heads_count = 0
     tails_count = 0
     for i in range(number_of_flips):
-        rand = random.randint(1, 2)
+        rand = random.randint(0, 1)
         print(rand)
         if rand == 1:
             heads_count += 1
@@ -17,4 +17,4 @@ def heads_tails(number_of_flips):
     print('tails', tails_count)
 
 
-heads_tails(1000000)
+heads_tails(100)
