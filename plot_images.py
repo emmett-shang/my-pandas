@@ -2,6 +2,10 @@ import numpy as np
 from scipy.misc import imread, imresize
 import matplotlib.pyplot as plt
 
+"""
+http://cs231n.github.io/python-numpy-tutorial/#matplotlib
+"""
+
 img = imread('stratus.jpg')
 img_tinted = img * [1, 0.95, 0.9]
 
