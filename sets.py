@@ -1,3 +1,7 @@
+"""
+http://cs231n.github.io/python-numpy-tutorial/#matplotlib
+"""
+
 animals = {'cat', 'dog'}
 print('cat' in animals)  # Check if an element is in a set; prints "True"
 print('fish' in animals)  # prints "False"
