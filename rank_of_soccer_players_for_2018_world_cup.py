@@ -1,0 +1,12 @@
+print("World cup ranking")
+print("Lionel, Messi, rank:1")
+print("Cristiano, Ronaldo, rank:2")
+print("Neymar, da Silvua Santos Junior, rank:3")
+print("Kevin, De Bruyne, rank:4")
+print("Harry, Kane, rank:5")
+print("Luis, Suarez, rank:6")
+print("Mohamed, Salah, rank:7")
+print("Antoine, Greizmann, rank:8")
+print("Eden, Hazard, rank:9")
+print("Robert, Lewandowski, rank:10")
+
