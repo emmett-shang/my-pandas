@@ -1,11 +1,11 @@
-World cup ranking
-Lionel, Messi, rank:1
-Cristiano, Ronaldo, rank:2
-Neymar, da Silvua Santos Junior, rank:3
-Kevin, De Bruyne, rank:4
-Harry, Kane, rank:5
-Luis, Suarez, rank:6
-Mohamed, Salah, rank:7
-Antoine, Greizmann, rank:8
-Eden, Hazard, rank:9
-Robert, Lewandowski, rank:10
+Name,Last Name,Ranking,Country,Footed,Height
+Lionel,Messi,rank:1,country:Argentina,left foot,1.7m
+Cristiano,Ronaldo,rank:2,country:Portugal,right foot,1.87m
+Neymar,da Silvua Santos Junior,rank:3,country:Brazil,both foot,1.75m
+Kevin,De Bruyne,rank:4,country:Belgium,right foot,1.81m
+Harry,Kane,rank:5,country:England,right foot,1.88m
+Luis,Suarez,rank:6,country:Uruguay,right foot,1.82m
+Mohamed,Salah,rank:7,counry:Egypt,left foot,1.75m
+Antoine,Greizmann,rank:8,country:France,left foot,1.75m
+Luka,Modric,rank:9,country:Croatia,right foot,1.72m
+Eden,Hazard,rank:9,country:Belgium,both foot,1.73m
