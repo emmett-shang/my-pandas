@@ -13,4 +13,7 @@ file_name = '2018_world_cup_matches.csv'
 full_file_name = os.path.join(path, file_name)
 
 df = pd.read_csv(full_file_name)
-print(df)
+
+print(df['Total goals scored'].mean())
+
+
