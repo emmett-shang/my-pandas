@@ -24,4 +24,18 @@ print('The count of Cavani is:', count)
 Return_name = random.pop(12)
 print('Updated list:', random)
 
+random.reverse()
+print('Updated list:', random)
 
+random.sort()
+print('Updated list:', random)
+
+random_3 = random
+random_3.append('Cavani')
+
+print('New list:', random_3)
+print('Old list:', random)
+
+list = ['Ozil', 'Beckham', 'Neuer', 'Ramos']
+random.extend(list)
+print('Updated list:', random)
