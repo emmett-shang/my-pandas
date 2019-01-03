@@ -12,3 +12,5 @@ Ques3 = ((3)**(-2)*(6)**(3)*(12)**(-2))/((9)**(-3)*(2)**(-1))
 solu_3 = 3**5
 print(Ques3)
 print(float(solu_3))
+
+#TODO: 'use assert for ques == solu' - Daddy
