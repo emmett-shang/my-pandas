@@ -1,4 +1,5 @@
 #TEST_MESSAGE = input()
+import string
 substitution = [['a', '4'], ['e', '3'], ['l', '1'], ['o', '0'], ['t', '7']]
 def encode_message(message, substitution):
     for s in substitution:

@@ -1,4 +1,11 @@
+<<<<<<< Updated upstream
 Emmett
 Ivy
 Lei
 Christy
+=======
+Emmett
+Ivy
+Lei
+Christy
+>>>>>>> Stashed changes

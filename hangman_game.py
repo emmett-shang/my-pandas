@@ -9,7 +9,7 @@ time.sleep(1)
 
 print("Hello, " + name, "Time to play hangman!")
 
-print("")
+print("\n")
 
 # wait for 1 second
 time.sleep(1)
@@ -22,12 +22,15 @@ word_list = ['in', 'empty', 'secret', 'apple', 'ask', 'or', 'time', 'discombobul
 word = random.choice(word_list)
 
 
-# creates an variable with an empty value
+# creates an variable with an emptye
+
+#  value
 guesses = ''
 
-
-# determine the number of turns
 turns = 10
+# determine the number of turnse
+
+
 
 # Create a while loop
 
@@ -44,12 +47,12 @@ while turns > 0:
         if char in guesses:
 
             # print then out the character
-            print(char,)
+            print(char)
 
         else:
 
             # if not found, print a dash
-            print("_",)
+            print("_")
 
             # and increase the failed counter with one
             failed += 1
