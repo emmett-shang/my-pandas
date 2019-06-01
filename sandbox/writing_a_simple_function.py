@@ -27,11 +27,19 @@ print(password(10))
 print(password(50))
 
 
-def rsum(n):
+def do_rsum(n):
     rsum = 0
     for k in range(n):
-        rsum += k
+        rsum += k # rsum = rsum + k
     return rsum
 
 
-print(rsum(12))
+print(do_rsum(5))
+
+def monkey(n):
+    rsum = 0
+    for i in range(n):
+        rsum += i
+    return rsum
+
+print(monkey(10))
