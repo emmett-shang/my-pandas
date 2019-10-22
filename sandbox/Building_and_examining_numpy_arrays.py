@@ -14,6 +14,6 @@ print(X.shape)
 print(X.size)
 
 Y = np.random.random(10)
-print(np.any(x > 0.9))
-print(np.all(x >= 0.1))
 print(Y)
+print(np.any(Y > 0.9))
+print(np.all(Y >= 0.1))
