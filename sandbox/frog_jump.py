@@ -17,10 +17,10 @@ for i in range(0, num_of_jumps):
     destination = destination + next_step
     next_step = next_step / 2.0
 
-print("where am I:")
+print("Where am I:")
 print(destination)
 
-print("how far am I from the destination pond:")
+print("How far am I from the destination pond?:")
 print(1 - destination)
 
 
